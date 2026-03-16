@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//blocktrade.club/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://blocktrade.club/post-sitemap.xml</loc>
+		<lastmod>2026-02-13T08:04:13+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://blocktrade.club/page-sitemap.xml</loc>
+		<lastmod>2026-02-09T05:56:39+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://blocktrade.club/category-sitemap.xml</loc>
+		<lastmod>2026-02-13T08:04:13+00:00</lastmod>
+	</sitemap>
+</sitemapindex>

@@ -1,0 +1,116 @@
+0000.041 (R) [notice] Looking for db archive: file name: backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-db.gz
+0000.041 (R) [notice] Archive is expected to be size: 867.6 KB: OK
+0000.044 (R) [notice] Looking for plugins archive: file name: backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-plugins.zip
+0000.044 (R) [notice] Archive is expected to be size: 46056.2 KB: OK
+0000.046 (R) [notice] Looking for themes archive: file name: backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-themes.zip
+0000.047 (R) [notice] Archive is expected to be size: 21137 KB: OK
+0000.049 (R) [notice] Looking for uploads archive: file name: backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-uploads.zip
+0000.049 (R) [notice] Archive is expected to be size: 58972.1 KB: OK
+0000.051 (R) [notice] Looking for others archive: file name: backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-others.zip
+0000.051 (R) [notice] Archive is expected to be size: 0.4 KB: OK
+0000.054 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.057 (R) [notice] Unpacking backup... (backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-db.gz, 0.8 Mb)
+0000.061 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.104 (R) [notice] Enabling Maintenance mode&#8230;
+0000.134 (R) [notice] Backup of: https://blocktrade.club
+0000.135 (R) [notice] Content URL: https://blocktrade.club/wp-content
+0000.135 (R) [notice] Uploads URL: https://blocktrade.club/wp-content/uploads
+0000.135 (R) [notice] Old table prefix: wptr_
+0000.135 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.136 (R) [notice] Site information: multisite = 0
+0000.136 (R) [notice] Site information: sql_mode = 
+0000.138 (R) [notice] New table prefix: q3_
+0000.148 (R) [notice] Processing table (MyISAM):  wptr_options - will restore as: q3_options
+0000.373 (R) [notice] Atomic restore: dropping original table (wptr_options)
+0000.381 (R) [notice] Atomic restore: renaming new table (q3_options) to final table name (wptr_options)
+0000.403 (R) [notice] Processing table (MyISAM):  wptr_users - will restore as: q3_users
+0000.426 (R) [notice] Atomic restore: dropping original table (wptr_users)
+0000.433 (R) [notice] Atomic restore: renaming new table (q3_users) to final table name (wptr_users)
+0000.440 (R) [notice] Processing table (MyISAM):  wptr_usermeta - will restore as: q3_usermeta
+0000.460 (R) [notice] Atomic restore: dropping original table (wptr_usermeta)
+0000.468 (R) [notice] Atomic restore: renaming new table (q3_usermeta) to final table name (wptr_usermeta)
+0000.475 (R) [notice] Processing table (MyISAM):  wptr_commentmeta - will restore as: q3_commentmeta
+0000.493 (R) [notice] Atomic restore: dropping original table (wptr_commentmeta)
+0000.498 (R) [notice] Atomic restore: renaming new table (q3_commentmeta) to final table name (wptr_commentmeta)
+0000.505 (R) [notice] Processing table (MyISAM):  wptr_comments - will restore as: q3_comments
+0000.525 (R) [notice] Atomic restore: dropping original table (wptr_comments)
+0000.532 (R) [notice] Atomic restore: renaming new table (q3_comments) to final table name (wptr_comments)
+0000.537 (R) [notice] Processing table (MyISAM):  wptr_links - will restore as: q3_links
+0000.554 (R) [notice] Atomic restore: dropping original table (wptr_links)
+0000.560 (R) [notice] Atomic restore: renaming new table (q3_links) to final table name (wptr_links)
+0000.567 (R) [notice] Processing table (MyISAM):  wptr_postmeta - will restore as: q3_postmeta
+0000.609 (R) [notice] Atomic restore: dropping original table (wptr_postmeta)
+0000.618 (R) [notice] Atomic restore: renaming new table (q3_postmeta) to final table name (wptr_postmeta)
+0000.624 (R) [notice] Processing table (MyISAM):  wptr_posts - will restore as: q3_posts
+0000.910 (R) [notice] Atomic restore: dropping original table (wptr_posts)
+0000.921 (R) [notice] Atomic restore: renaming new table (q3_posts) to final table name (wptr_posts)
+0000.927 (R) [notice] Processing table (MyISAM):  wptr_term_relationships - will restore as: q3_term_relationships
+0000.948 (R) [notice] Atomic restore: dropping original table (wptr_term_relationships)
+0000.955 (R) [notice] Atomic restore: renaming new table (q3_term_relationships) to final table name (wptr_term_relationships)
+0000.962 (R) [notice] Processing table (MyISAM):  wptr_term_taxonomy - will restore as: q3_term_taxonomy
+0000.985 (R) [notice] Database queries processed: 50 in 0.92 seconds
+0000.985 (R) [notice] Atomic restore: dropping original table (wptr_term_taxonomy)
+0000.992 (R) [notice] Atomic restore: renaming new table (q3_term_taxonomy) to final table name (wptr_term_taxonomy)
+0000.999 (R) [notice] Processing table (MyISAM):  wptr_termmeta - will restore as: q3_termmeta
+0001.014 (R) [notice] Atomic restore: dropping original table (wptr_termmeta)
+0001.020 (R) [notice] Atomic restore: renaming new table (q3_termmeta) to final table name (wptr_termmeta)
+0001.027 (R) [notice] Processing table (MyISAM):  wptr_terms - will restore as: q3_terms
+0001.049 (R) [notice] Atomic restore: dropping original table (wptr_terms)
+0001.056 (R) [notice] Atomic restore: renaming new table (q3_terms) to final table name (wptr_terms)
+0001.062 (R) [notice] Processing table (MyISAM):  wptr_e_events - will restore as: q3_e_events
+0001.080 (R) [notice] Atomic restore: dropping original table (wptr_e_events)
+0001.120 (R) [notice] Atomic restore: renaming new table (q3_e_events) to final table name (wptr_e_events)
+0001.127 (R) [notice] Processing table (MyISAM):  wptr_nextend2_image_storage - will restore as: q3_nextend2_image_storage
+0001.147 (R) [notice] Atomic restore: dropping original table (wptr_nextend2_image_storage)
+0001.155 (R) [notice] Atomic restore: renaming new table (q3_nextend2_image_storage) to final table name (wptr_nextend2_image_storage)
+0001.161 (R) [notice] Processing table (MyISAM):  wptr_nextend2_section_storage - will restore as: q3_nextend2_section_storage
+0001.179 (R) [notice] Atomic restore: dropping original table (wptr_nextend2_section_storage)
+0001.187 (R) [notice] Atomic restore: renaming new table (q3_nextend2_section_storage) to final table name (wptr_nextend2_section_storage)
+0001.193 (R) [notice] Processing table (MyISAM):  wptr_nextend2_smartslider3_generators - will restore as: q3_nextend2_smartslider3_generators
+0001.209 (R) [notice] Atomic restore: dropping original table (wptr_nextend2_smartslider3_generators)
+0001.216 (R) [notice] Atomic restore: renaming new table (q3_nextend2_smartslider3_generators) to final table name (wptr_nextend2_smartslider3_generators)
+0001.223 (R) [notice] Processing table (MyISAM):  wptr_nextend2_smartslider3_sliders - will restore as: q3_nextend2_smartslider3_sliders
+0001.247 (R) [notice] Atomic restore: dropping original table (wptr_nextend2_smartslider3_sliders)
+0001.253 (R) [notice] Atomic restore: renaming new table (q3_nextend2_smartslider3_sliders) to final table name (wptr_nextend2_smartslider3_sliders)
+0001.258 (R) [notice] Processing table (MyISAM):  wptr_nextend2_smartslider3_sliders_xref - will restore as: q3_nextend2_smartslider3_sliders_xref
+0001.274 (R) [notice] Atomic restore: dropping original table (wptr_nextend2_smartslider3_sliders_xref)
+0001.282 (R) [notice] Atomic restore: renaming new table (q3_nextend2_smartslider3_sliders_xref) to final table name (wptr_nextend2_smartslider3_sliders_xref)
+0001.289 (R) [notice] Processing table (MyISAM):  wptr_nextend2_smartslider3_slides - will restore as: q3_nextend2_smartslider3_slides
+0001.313 (R) [notice] Atomic restore: dropping original table (wptr_nextend2_smartslider3_slides)
+0001.319 (R) [notice] Atomic restore: renaming new table (q3_nextend2_smartslider3_slides) to final table name (wptr_nextend2_smartslider3_slides)
+0001.323 (R) [notice] Processing table (MyISAM):  wptr_social_users - will restore as: q3_social_users
+0001.372 (R) [notice] Disabling Maintenance mode&#8230;
+0001.372 (R) [notice] Atomic restore: dropping original table (wptr_social_users)
+0001.379 (R) [notice] Atomic restore: renaming new table (q3_social_users) to final table name (wptr_social_users)
+0001.387 (R) [notice] Finished: lines processed: 81 in 1.32 seconds
+0001.388 (R) [notice] Cleaning up rubbish...
+0001.388 (R) [notice] This option was not selected.
+0001.397 (R) [notice] Unpacking backup... (backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-plugins.zip, 45 MB)
+0002.206 (R) [notice] Unzip progress: 1779 out of 9834 files (786 B, plugins/akismet/.htaccess)
+0003.273 (R) [notice] Unzip progress: 2780 out of 9834 files (12.8 MB, plugins/cool-timeline/admin/codestar-framework/fields/callback/callback.php)
+0008.331 (R) [notice] Unzip progress: 3781 out of 9834 files (60.9 MB, plugins/elementor/assets/js/styleguide.min.js)
+0009.962 (R) [notice] Unzip progress: 4782 out of 9834 files (74.3 MB, plugins/elementor/modules/global-classes/global-classes-changes-resolver.php)
+0012.575 (R) [notice] Unzip progress: 5783 out of 9834 files (97 MB, plugins/ultimate-addons-for-gutenberg/includes/blocks/inline-notice/block.php)
+0014.147 (R) [notice] Unzip progress: 6784 out of 9834 files (110.3 MB, plugins/google-site-kit/third-party/google/apiclient-services/src/GoogleAnalyticsAdmin/GoogleAnalyticsAdminV1betaFirebaseLink.php)
+0014.989 (R) [notice] Unzip progress: 7785 out of 9834 files (117 MB, plugins/sucuri-scanner/inc/images/tso.png)
+0015.973 (R) [notice] Unzip progress: 8786 out of 9834 files (125.2 MB, plugins/updraftplus/includes/Google/Logger/Null.php)
+0018.347 (R) [notice] Unzip progress: 9787 out of 9834 files (147 MB, plugins/updraftplus/vendor/symfony/polyfill-mbstring/composer.json)
+0018.519 (R) [notice] Unzip progress: 9834 out of 9834 files (148.6 MB, plugins/updraftplus/updraftplus.php)
+0018.524 (R) [notice] Moving old data out of the way...
+0022.323 (R) [notice] Moving unpacked backup into place...
+0025.310 (R) [notice] Cleaning up rubbish...
+0025.314 (R) [notice] Unpacking backup... (backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-themes.zip, 20.6 MB)
+0028.399 (R) [notice] Unzip progress: 1002 out of 1127 files (25.6 MB, themes/twentytwentyfive/patterns/cta-newsletter.php)
+0028.494 (R) [notice] Unzip progress: 1127 out of 1127 files (26.2 MB, themes/twentytwentyfive/theme.json)
+0028.495 (R) [notice] Moving old data out of the way...
+0028.760 (R) [notice] Moving unpacked backup into place...
+0029.051 (R) [notice] Cleaning up rubbish...
+0029.056 (R) [notice] Unpacking backup... (backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-uploads.zip, 57.6 MB)
+0039.672 (R) [notice] Unzip progress: 463 out of 463 files (71.6 MB, uploads/sucuri/sucuri-hookdata.php)
+0039.674 (R) [notice] Moving old data out of the way...
+0039.836 (R) [notice] Moving unpacked backup into place...
+0039.951 (R) [notice] Cleaning up rubbish...
+0039.955 (R) [notice] Unpacking backup... (backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-others.zip, 0 MB)
+0039.959 (R) [notice] Unzip progress: 3 out of 3 files (28 B, index.php)
+0039.962 (R) [notice] Cleaning up rubbish...
+0040.007 (R) [notice] Restore successful!

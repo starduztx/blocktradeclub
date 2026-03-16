@@ -1,0 +1,156 @@
+0000.002 () Opened log file at time: Wed, 12 Nov 2025 09:07:20 +0000 on https://blocktrade.club
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.8 WP: 6.8.2 PHP: 8.3.19 (apache2handler, Linux webserver.cluster.com 5.4.7-362.18.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Nov 12 9:07:20 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux) MySQL: 11.4.7-MariaDB (max packet size=67108864) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 512M (used: 66.6M | 70M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: C WP Proxy: disabled ZipArchive::addFile: Y
+0000.003 () Free space on disk containing Updraft's temporary directory: 2662427.4 MB
+0000.043 () Restore setup, now closing connection and starting restore over AJAX.
+0000.002 () Opened log file at time: Wed, 12 Nov 2025 09:07:25 +0000 on https://blocktrade.club
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.8 WP: 6.8.2 PHP: 8.3.19 (apache2handler, Linux webserver.cluster.com 5.6.7-362.18.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Nov 12 9:07:25 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux) MySQL: 11.4.7-MariaDB (max packet size=67108864) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 512M (used: 61.3M | 64M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: C WP Proxy: disabled ZipArchive::addFile: Y
+0000.003 () Free space on disk containing Updraft's temporary directory: 2662427.3 MB
+0000.033 () Ensuring WP_Filesystem is setup for a restore
+0000.034 () WP_Filesystem is setup and ready for a restore
+0000.040 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wptr_options","wptr_users","wptr_usermeta","wptr_commentmeta","wptr_comments","wptr_links","wptr_postmeta","wptr_posts","wptr_term_relationships","wptr_term_taxonomy","wptr_termmeta","wptr_terms","wptr_e_events","wptr_nextend2_image_storage","wptr_nextend2_section_storage","wptr_nextend2_smartslider3_generators","wptr_nextend2_smartslider3_sliders","wptr_nextend2_smartslider3_sliders_xref","wptr_nextend2_smartslider3_slides","wptr_social_users"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.043 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.054 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.056 () Entity: db
+0000.056 () restore_backup(backup_file=backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-db.gz, type=db, info=a:0:{}, last_one=)
+0000.057 () Unpacking backup... (backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-db.gz, 0.8 Mb)
+0000.057 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.060 () Database successfully unpacked
+0000.061 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.061 () Using direct MySQL access; value of use_mysqli is: 1
+0000.062 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,
+0000.104 () Max packet size: 64 MB
+0000.104 () Entering maintenance mode
+0000.104 () Enabling Maintenance mode&#8230;
+0000.134 () Backup of: https://blocktrade.club
+0000.135 () Content URL: https://blocktrade.club/wp-content
+0000.135 () Uploads URL: https://blocktrade.club/wp-content/uploads
+0000.135 () Old table prefix: wptr_
+0000.136 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.136 () Site information: multisite=0
+0000.136 () Site information: sql_mode=
+0000.137 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.138 () New table prefix: q3_
+0000.148 () Processing table (MyISAM): wptr_options - will restore as: q3_options
+0000.373 () Atomic restore: dropping original table (wptr_options)
+0000.381 () Atomic restore: renaming new table (q3_options) to final table name (wptr_options)
+0000.388 () Restoring prior UD configuration (table: wptr_options; keys: 4)
+0000.403 () Processing table (MyISAM): wptr_users - will restore as: q3_users
+0000.426 () Atomic restore: dropping original table (wptr_users)
+0000.433 () Atomic restore: renaming new table (q3_users) to final table name (wptr_users)
+0000.440 () Processing table (MyISAM): wptr_usermeta - will restore as: q3_usermeta
+0000.460 () Atomic restore: dropping original table (wptr_usermeta)
+0000.468 () Atomic restore: renaming new table (q3_usermeta) to final table name (wptr_usermeta)
+0000.475 () Processing table (MyISAM): wptr_commentmeta - will restore as: q3_commentmeta
+0000.493 () Atomic restore: dropping original table (wptr_commentmeta)
+0000.498 () Atomic restore: renaming new table (q3_commentmeta) to final table name (wptr_commentmeta)
+0000.505 () Processing table (MyISAM): wptr_comments - will restore as: q3_comments
+0000.525 () Atomic restore: dropping original table (wptr_comments)
+0000.532 () Atomic restore: renaming new table (q3_comments) to final table name (wptr_comments)
+0000.537 () Processing table (MyISAM): wptr_links - will restore as: q3_links
+0000.554 () Atomic restore: dropping original table (wptr_links)
+0000.560 () Atomic restore: renaming new table (q3_links) to final table name (wptr_links)
+0000.567 () Processing table (MyISAM): wptr_postmeta - will restore as: q3_postmeta
+0000.609 () Atomic restore: dropping original table (wptr_postmeta)
+0000.618 () Atomic restore: renaming new table (q3_postmeta) to final table name (wptr_postmeta)
+0000.624 () Processing table (MyISAM): wptr_posts - will restore as: q3_posts
+0000.910 () Atomic restore: dropping original table (wptr_posts)
+0000.920 () Atomic restore: renaming new table (q3_posts) to final table name (wptr_posts)
+0000.927 () Processing table (MyISAM): wptr_term_relationships - will restore as: q3_term_relationships
+0000.948 () Atomic restore: dropping original table (wptr_term_relationships)
+0000.955 () Atomic restore: renaming new table (q3_term_relationships) to final table name (wptr_term_relationships)
+0000.962 () Processing table (MyISAM): wptr_term_taxonomy - will restore as: q3_term_taxonomy
+0000.985 () Database queries processed: 50 in 0.92 seconds
+0000.985 () Atomic restore: dropping original table (wptr_term_taxonomy)
+0000.992 () Atomic restore: renaming new table (q3_term_taxonomy) to final table name (wptr_term_taxonomy)
+0000.999 () Processing table (MyISAM): wptr_termmeta - will restore as: q3_termmeta
+0001.014 () Atomic restore: dropping original table (wptr_termmeta)
+0001.020 () Atomic restore: renaming new table (q3_termmeta) to final table name (wptr_termmeta)
+0001.027 () Processing table (MyISAM): wptr_terms - will restore as: q3_terms
+0001.049 () Atomic restore: dropping original table (wptr_terms)
+0001.056 () Atomic restore: renaming new table (q3_terms) to final table name (wptr_terms)
+0001.062 () Processing table (MyISAM): wptr_e_events - will restore as: q3_e_events
+0001.080 () Atomic restore: dropping original table (wptr_e_events)
+0001.120 () Atomic restore: renaming new table (q3_e_events) to final table name (wptr_e_events)
+0001.127 () Processing table (MyISAM): wptr_nextend2_image_storage - will restore as: q3_nextend2_image_storage
+0001.147 () Atomic restore: dropping original table (wptr_nextend2_image_storage)
+0001.155 () Atomic restore: renaming new table (q3_nextend2_image_storage) to final table name (wptr_nextend2_image_storage)
+0001.161 () Processing table (MyISAM): wptr_nextend2_section_storage - will restore as: q3_nextend2_section_storage
+0001.179 () Atomic restore: dropping original table (wptr_nextend2_section_storage)
+0001.187 () Atomic restore: renaming new table (q3_nextend2_section_storage) to final table name (wptr_nextend2_section_storage)
+0001.193 () Processing table (MyISAM): wptr_nextend2_smartslider3_generators - will restore as: q3_nextend2_smartslider3_generators
+0001.209 () Atomic restore: dropping original table (wptr_nextend2_smartslider3_generators)
+0001.216 () Atomic restore: renaming new table (q3_nextend2_smartslider3_generators) to final table name (wptr_nextend2_smartslider3_generators)
+0001.223 () Processing table (MyISAM): wptr_nextend2_smartslider3_sliders - will restore as: q3_nextend2_smartslider3_sliders
+0001.247 () Atomic restore: dropping original table (wptr_nextend2_smartslider3_sliders)
+0001.253 () Atomic restore: renaming new table (q3_nextend2_smartslider3_sliders) to final table name (wptr_nextend2_smartslider3_sliders)
+0001.258 () Processing table (MyISAM): wptr_nextend2_smartslider3_sliders_xref - will restore as: q3_nextend2_smartslider3_sliders_xref
+0001.274 () Atomic restore: dropping original table (wptr_nextend2_smartslider3_sliders_xref)
+0001.282 () Atomic restore: renaming new table (q3_nextend2_smartslider3_sliders_xref) to final table name (wptr_nextend2_smartslider3_sliders_xref)
+0001.289 () Processing table (MyISAM): wptr_nextend2_smartslider3_slides - will restore as: q3_nextend2_smartslider3_slides
+0001.313 () Atomic restore: dropping original table (wptr_nextend2_smartslider3_slides)
+0001.319 () Atomic restore: renaming new table (q3_nextend2_smartslider3_slides) to final table name (wptr_nextend2_smartslider3_slides)
+0001.323 () Processing table (MyISAM): wptr_social_users - will restore as: q3_social_users
+0001.331 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0001.371 () Unlocking database and leaving maintenance mode
+0001.372 () Disabling Maintenance mode&#8230;
+0001.372 () Atomic restore: dropping original table (wptr_social_users)
+0001.379 () Atomic restore: renaming new table (q3_social_users) to final table name (wptr_social_users)
+0001.387 () Finished: lines processed: 81 in 1.32 seconds
+0001.388 () Cleaning up rubbish...
+0001.388 () Begin search and replace (updraftplus_restored_db)
+0001.388 () [Database-replace-site-url] Database: search and replace site URL
+0001.388 () This option was not selected.
+0001.396 () Entity: plugins
+0001.396 () restore_backup(backup_file=backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:84:"/home/vol8_1/infinityfree.com/if0_40012535/blocktrade.club/htdocs/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0001.397 () Unpacking backup... (backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-plugins.zip, 45 MB)
+0001.401 () Unzipping backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-plugins.zip to /home/vol8_1/infinityfree.com/if0_40012535/blocktrade.club/htdocs/wp-content/upgrade/ad5f66a0/ using UpdraftPlus_ZipArchive, starting index 0
+0002.207 () Unzip progress: 1779 out of 9834 files (786 B, plugins/akismet/.htaccess)
+0003.273 () Unzip progress: 2780 out of 9834 files (12.8 MB, plugins/cool-timeline/admin/codestar-framework/fields/callback/callback.php)
+0008.332 () Unzip progress: 3781 out of 9834 files (60.9 MB, plugins/elementor/assets/js/styleguide.min.js)
+0009.962 () Unzip progress: 4782 out of 9834 files (74.3 MB, plugins/elementor/modules/global-classes/global-classes-changes-resolver.php)
+0012.576 () Unzip progress: 5783 out of 9834 files (97 MB, plugins/ultimate-addons-for-gutenberg/includes/blocks/inline-notice/block.php)
+0014.147 () Unzip progress: 6784 out of 9834 files (110.3 MB, plugins/google-site-kit/third-party/google/apiclient-services/src/GoogleAnalyticsAdmin/GoogleAnalyticsAdminV1betaFirebaseLink.php)
+0014.990 () Unzip progress: 7785 out of 9834 files (117 MB, plugins/sucuri-scanner/inc/images/tso.png)
+0015.973 () Unzip progress: 8786 out of 9834 files (125.2 MB, plugins/updraftplus/includes/Google/Logger/Null.php)
+0018.348 () Unzip progress: 9787 out of 9834 files (147 MB, plugins/updraftplus/vendor/symfony/polyfill-mbstring/composer.json)
+0018.520 () Unzip progress: 9834 out of 9834 files (148.6 MB, plugins/updraftplus/updraftplus.php)
+0018.524 () Moving old data: filesystem method / updraft_dir is potentially possible
+0018.524 () Moving old data: can potentially use wp_filesystem method / -old
+0018.524 () Moving old data out of the way...
+0022.307 () Top-level entities being moved: akismet, hello.php, index.php, smart-slider-3, cool-timeline, timeline-widget-addon-for-elementor, elementor, hide-titles, nextend-facebook-connect, ultimate-addons-for-gutenberg, google-site-kit, sucuri-scanner, really-simple-ssl, updraftplus, seo-by-rank-math
+0022.323 () Moving unpacked backup into place...
+0025.295 () Top-level entities being moved: akismet, cool-timeline, elementor, google-site-kit, hide-titles, nextend-facebook-connect, really-simple-ssl, smart-slider-3, sucuri-scanner, timeline-widget-addon-for-elementor, ultimate-addons-for-gutenberg, updraftplus, hello.php, index.php
+0025.310 () Cleaning up rubbish...
+0025.313 () Entity: themes
+0025.313 () restore_backup(backup_file=backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-themes.zip, type=themes, info=a:3:{s:4:"path";s:83:"/home/vol8_1/infinityfree.com/if0_40012535/blocktrade.club/htdocs/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0025.314 () Unpacking backup... (backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-themes.zip, 20.6 MB)
+0025.315 () Unzipping backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-themes.zip to /home/vol8_1/infinityfree.com/if0_40012535/blocktrade.club/htdocs/wp-content/upgrade/7e4c8162/ using UpdraftPlus_ZipArchive, starting index 0
+0028.400 () Unzip progress: 1002 out of 1127 files (25.6 MB, themes/twentytwentyfive/patterns/cta-newsletter.php)
+0028.494 () Unzip progress: 1127 out of 1127 files (26.2 MB, themes/twentytwentyfive/theme.json)
+0028.495 () Moving old data: filesystem method / updraft_dir is potentially possible
+0028.495 () Moving old data: can potentially use wp_filesystem method / -old
+0028.495 () Moving old data out of the way...
+0028.755 () Top-level entities being moved: index.php, twentytwentyfour, twentytwentythree, twentytwenty, neve, twentytwentyfive
+0028.760 () Moving unpacked backup into place...
+0029.043 () Top-level entities being moved: neve, twentytwenty, twentytwentyfive, twentytwentyfour, twentytwentythree, index.php
+0029.051 () Cleaning up rubbish...
+0029.055 () Entity: uploads
+0029.055 () restore_backup(backup_file=backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:84:"/home/vol8_1/infinityfree.com/if0_40012535/blocktrade.club/htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0029.056 () Unpacking backup... (backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-uploads.zip, 57.6 MB)
+0029.057 () Unzipping backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-uploads.zip to /home/vol8_1/infinityfree.com/if0_40012535/blocktrade.club/htdocs/wp-content/upgrade/31f442e0/ using UpdraftPlus_ZipArchive, starting index 0
+0039.672 () Unzip progress: 463 out of 463 files (71.6 MB, uploads/sucuri/sucuri-hookdata.php)
+0039.674 () Moving old data: filesystem method / updraft_dir is potentially possible
+0039.674 () Moving old data: can potentially use wp_filesystem method / -old
+0039.674 () Moving old data out of the way...
+0039.836 () Moving unpacked backup into place...
+0039.951 () Cleaning up rubbish...
+0039.954 () Entity: others
+0039.954 () restore_backup(backup_file=backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-others.zip, type=others, info=a:2:{s:4:"path";s:76:"/home/vol8_1/infinityfree.com/if0_40012535/blocktrade.club/htdocs/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0039.955 () Unpacking backup... (backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-others.zip, 0 MB)
+0039.956 () Unzipping backup_2025-11-10-0551_BLOCKTRADE_CLUB_0fa9165f10b4-others.zip to /home/vol8_1/infinityfree.com/if0_40012535/blocktrade.club/htdocs/wp-content/upgrade/a2f9d1e4/ using UpdraftPlus_ZipArchive, starting index 0
+0039.959 () Unzip progress: 3 out of 3 files (28 B, index.php)
+0039.961 () PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/home/vol8_1/infinityfree.com/if0_40012535/blocktrade.club/htdocs/wp-content/upgrade/a2f9d1e4/index.php/index.php) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol8_1/infinityfree.com/if0_40012535/blocktrade.club/htdocs) (line 419, wp-admin/includes/class-wp-filesystem-direct.php)
+0039.962 () Cleaning up rubbish...
+0039.993 () Elementor's clear cache method exists and will be executed
+0040.007 () Restore successful!
+0040.007 () Restore successful
